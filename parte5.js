@@ -15,9 +15,5 @@ document.addEventListener("DOMContentLoaded", function(){
         boton.style.backgroundColor = "black";
     });
 
-    //Evento para ambiar color del parrafo al hacer clic
 
-    parrafo.addEventListener("click", function(){
-        parrafo.style.color = parrafo.style.color === "blue" ? "white": "blue";
-    });
 });
