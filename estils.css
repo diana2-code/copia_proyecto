@@ -272,7 +272,7 @@ header {
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para los destinos */
     overflow: hidden; /* Evita que el contenido se desborde */
-    max-width: 600px; /* Limita el ancho máximo del destino */
+    max-width: 500px; /* Limita el ancho máximo del destino */
     width: 100%; /* Hace que el destino ocupe todo el ancho disponible */
     display: flex; /* Usa flexbox para organizar el contenido del destino */
     flex-direction: column; /* Organiza los elementos del destino en una columna */
@@ -314,8 +314,8 @@ header {
   max-width: 80%;
 }
 .preview-content img {
-  width: 80%;
-  max-width: 500px;
+  width: 100%;
+  max-width: 900px;
   border-radius: 10px;
 }
 
