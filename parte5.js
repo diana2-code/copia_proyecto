@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", function(){
     //evento para cambiar el color del boton al pasar el mouse
 
     boton.addEventListener("mouseover", function(){
-        boton.style.background ="red";
+        boton.style.background ="rgb(255, 153, 0)";
     });
 
     boton.addEventListener("mouseout", function(){
-        boton.style.backgroundColor = "blue";
+        boton.style.backgroundColor = "black";
     });
 
     //Evento para ambiar color del parrafo al hacer clic

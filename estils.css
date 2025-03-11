@@ -504,7 +504,7 @@ main {
 
 /* Botón de envío */
 .contact-form button {
-  
+  background-color: rgb(0, 0, 0);
   color: #fff; /* Texto blanco */
   padding: 10px 15px; /* Espaciado interno */
   border: none; /* Sin borde */
