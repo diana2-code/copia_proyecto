@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Trip - Contáctanos</title>
+    <link rel="stylesheet" href="estils.css">
+    <!-- Incluir Font Awesome para los iconos de redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Enlaces de fuentes -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire-animation">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One|Libre+Baskerville">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo font-effect-fire-animation">
+                <a href="index.html">Go Trip</a>
+                <button class="dark-mode-btn" id="darkModeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <!-- Menú Toggle -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+            <!-- Enlaces de navegación -->
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destinations.html">Destinos</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section section class="contact-intro">
+            <h1>Contáctate con Go Trip</h1>
+            <p id="parrafo">Estamos aquí para ayudarte a planificar tu próxima aventura. Contáctanos con cualquier pregunta o para comenzar a planificar tu viaje hoy mismo.</p>
+        
+        </section>
+        <section class="customer-reviews">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <div class="review">
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p>"¡Go Trip hizo que nuestras vacaciones fueran inolvidables! Excelente servicio y destinos increíbles." - <strong>Jane Doe</strong></p>
+            </div>
+            <div class="review">
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <p>"Muy buena experiencia en general. ¡Definitivamente volveré a reservar!" - <strong>John Smith</strong></p>
+            </div>
+            <!-- Agregar más reseñas según sea necesario -->
+        </section>
+        <section class="contact-details">
+            <div class="contact-info">
+                <h2>Información de Contacto</h2>
+                <p><strong>Correo electrónico:</strong> <a href="mailto:info@gotrip.com">info@gotrip.com</a></p>
+                <p><strong>Teléfono:</strong> <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                <p><strong>Dirección:</strong> Calle Viaje 123, Ciudad Aventura, País</p>
+            </div>
+
+            <form class="contact-form" action="bienvenida.html">
+                <div class="emoji">😊✉️</div>
+                <h1>Contacto</h1>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre..." required>
+        
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo..." required>
+        
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+                <button id="boton" class="btn" type="submit" value="Enviar">Enviar</button>
+                </form>
+        </section>
+           
+    </main>
+    <!-- Redes Sociales -->
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>&copy; 2024 Go Trip. Todos los derechos reservados.</p>
+    </footer>
+
+        <script src="modo_oscuro.js"></script>
+        <script src="parte5.js"></script>
+
+</body>
+</html>

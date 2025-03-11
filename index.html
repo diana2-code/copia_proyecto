@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Trip</title>
+    <!-- Links de fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire-animation">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One|Libre+Baskerville">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
+    <link rel="stylesheet" href="estils.css">
+
+    <style>
+        :root {
+            --primary-color: #4CAF50;
+            --secondary-color: #FFFFFF;
+            --bg-gradient: linear-gradient(135deg, #dfe2f7, #005eff);
+          }
+          body {
+            font-family: 'Libre Baskerville', serif;
+            background: var(--bg-gradient);
+            color: var(--secondary-color);
+          }
+
+          footer {
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+          }
+
+          .subscription-form {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
+          .subscription-form input[type="email"] {
+            padding: 10px;
+            margin:10px;
+            width: 500px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+          }
+
+          .subscription-form button {
+            padding: 10px 20px;
+            margin:10px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            margin:10px;
+            border-radius: 10px;
+            cursor: pointer;
+          }
+
+          
+          .subscription-form button {
+            background-color: rgba(0, 140, 255, 0.992) !important;
+          }
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo font-effect-fire-animation">
+                <a href="index.html">Go Trip</a>
+                <button class="dark-mode-btn" id="darkModeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+             <!-- Menú Toggle -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+        
+            <!-- Links de navegación -->
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="destinations.html">Destinos</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            
+                
+            </ul>
+        </nav>
+        
+    </header>
+<!-- Main banderas -->
+    <main class="hero">
+        <!--content title and subtitle -->
+        <div class="hero-content">
+            <h1 class="title font-effect-shadow-multiple">Explora Europa</h1>
+            <p class="subtitle">Un viaje por Italia, Francia, Londres, Inglaterra y Suiza</p>
+        </div>
+        <div class="flags">
+
+                <!-- Bandera Suiza -->
+                <label class="flag-wrapper">
+                    <input type="checkbox" class="togglee" id="switzerland">
+                    <div class="flag" id="switzerland-flag"></div>
+                    <div class="country-info" id="switzerland-info">
+                        <img src="img/suizaa.jpg" alt="Suiza">
+                        <a href="destinations.html" target="_blank">Leer m&aacute;s</a>
+    
+                    </div>
+                </label>
+
+            <!-- Bandera Francia -->
+            <label class="flag-wrapper">
+                <input type="checkbox" class="togglee" id="france">
+                <div class="flag" id="france-flag"></div>
+                <div class="country-info" id="france-info">
+                    <img src="img/francia.jpg" alt="Francia">
+                    <a href="destinations.html" target="_blank">Leer m&aacute;s</a>
+                </div>
+            </label>
+
+            <!-- Bandera Inglaterra -->
+            <label class="flag-wrapper">
+                <input type="checkbox" class="togglee" id="uk">
+                <div class="flag" id="uk-flag"></div>
+                <div class="country-info" id="uk-info">
+                    <img src="img/London.jpg" alt="Inglaterra">
+                    <a href="destinations.html" target="_blank">Leer m&aacute;s</a>
+
+                </div>
+            </label>
+             <!-- Bandera Italia -->
+             
+            <label class="flag-wrapper" >
+                <input type="checkbox" class="togglee" id="italy">
+                <div class="flag" id="italy-flag"></div>
+                <div class="country-info" id="italy-info">
+                    <img src="img/italia.jpg" alt="Italia">
+                    <a href="destinations.html" target="_blank" >Leer m&aacute;s</a>
+
+                </div>
+            </label>
+        </div>
+    </main>
+    <!-- el formulario de suscrito -->
+    <section>
+        <div class="subscription-form">
+            <h3>Suscr&iacute;bete a nuestro bolet&iacute;n</h3>
+            <form action="bienvenida.html" class="subscription-form">
+                <input type="email" name="email" placeholder="Ingresa tu correo electr&oacute;nico" required>
+                <div> <input type="checkbox" name="agree" required> Acepto los t&eacute;rminos y condiciones</div>
+                <button class="btn" type="submit">Suscribirse</button>
+            </form>
+            <!-- <a href="index.html"><button class="btn" type="submit">Suscribirse</button></a> -->
+        </div>
+    </section>
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>&copy; 2024 Go Trip. Todos los derechos reservados.</p>
+
+    </footer>
+
+    <script src="modo_oscuro.js"></script>
+</body>
+</html>
