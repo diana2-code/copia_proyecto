@@ -18,6 +18,6 @@ document.addEventListener("DOMContentLoaded", function(){
     //Evento para ambiar color del parrafo al hacer clic
 
     parrafo.addEventListener("click", function(){
-        parrafo.style.color = parrafo.style.color === "green" ? "black" : "green";
+        parrafo.style.color = parrafo.style.color === "blue" ? "white": "blue";
     });
 });
